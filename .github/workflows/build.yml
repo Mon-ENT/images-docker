@@ -29,10 +29,15 @@ jobs:
         id: bake-files
         run: |
           FILES="-f docker-bake.hcl"
+          TARGETS=""
+
           for file in modules/**/*.hcl; do
             FILES="$FILES -f $file"
+            TARGETS="$TARGETS $(basename $file .hcl)"
           done
+
           echo "files=$FILES" >> $GITHUB_OUTPUT
-    
+          echo "targets=$TARGETS" >> $GITHUB_OUTPUT
+
       - name: Build and push Docker images
-        run: docker buildx bake ${{ steps.bake-files.outputs.files }} --push
+        run: docker buildx bake ${{ steps.bake-files.outputs.files }} ${{ steps.bake-files.outputs.targets }} --push
