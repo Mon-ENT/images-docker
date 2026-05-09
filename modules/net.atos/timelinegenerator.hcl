@@ -1,11 +1,9 @@
-variable "MODULE_VERSION" { default = "3.3.7" }
-
 target "timelinegenerator" {
     inherits = ["base"]
-    tags = ["${REGISTRY}/timelinegenerator:${MODULE_VERSION}"]
+    tags = ["${REGISTRY}/timelinegenerator:${target.timelinegenerator.args.MODULE_VERSION}"]
     args = {
         MODULE_GROUP = "net.atos"
         MODULE_NAME = "timelinegenerator"
-        MODULE_VERSION = MODULE_VERSION
+        MODULE_VERSION = "3.3.7"
     }
 }

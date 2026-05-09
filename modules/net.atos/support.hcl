@@ -1,11 +1,9 @@
-variable "MODULE_VERSION" { default = "4.0.1" }
-
 target "support" {
     inherits = ["base"]
-    tags = ["${REGISTRY}/support:${MODULE_VERSION}"]
+    tags = ["${REGISTRY}/support:${target.support.args.MODULE_VERSION}"]
     args = {
         MODULE_GROUP = "net.atos"
         MODULE_NAME = "support"
-        MODULE_VERSION = MODULE_VERSION
+        MODULE_VERSION = "4.0.1"
     }
 }

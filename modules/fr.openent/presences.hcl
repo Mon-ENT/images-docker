@@ -1,11 +1,9 @@
-variable "MODULE_VERSION" { default = "2.1.9" }
-
 target "presences" {
     inherits = ["base"]
-    tags = ["${REGISTRY}/presences:${MODULE_VERSION}"]
+    tags = ["${REGISTRY}/presences:${target.presences.args.MODULE_VERSION}"]
     args = {
         MODULE_GROUP = "fr.openent"
         MODULE_NAME = "presences"
-        MODULE_VERSION = MODULE_VERSION
+        MODULE_VERSION = "2.1.9"
     }
 }

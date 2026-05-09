@@ -1,11 +1,9 @@
-variable "MODULE_VERSION" { default = "2.1.4" }
-
 target "search-engine" {
     inherits = ["base"]
-    tags = ["${REGISTRY}/search-engine:${MODULE_VERSION}"]
+    tags = ["${REGISTRY}/search-engine:${target.search-engine.args.MODULE_VERSION}"]
     args = {
         MODULE_GROUP = "fr.openent"
         MODULE_NAME = "search-engine"
-        MODULE_VERSION = MODULE_VERSION
+        MODULE_VERSION = "2.1.4"
     }
 }

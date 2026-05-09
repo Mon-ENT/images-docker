@@ -26,9 +26,9 @@
             "fileMatch": ["^modules/[^/]+/[^/]+\\.hcl$"],
             "matchStringsStrategy": "combination",
             "matchStrings": [
-                "variable \"MODULE_VERSION\" { default = \"(?<currentValue>[^\"]+)\" }\\r?",
                 "MODULE_GROUP = \"(?<packageName>[^\"]+)\"",
-                "MODULE_NAME = \"(?<depName>[^\"]+)\""
+                "MODULE_NAME = \"(?<depName>[^\"]+)\"",
+                "MODULE_VERSION = \"(?<currentValue>[^\"]+)\""
             ],
             "datasourceTemplate": "maven",
             "packageNameTemplate": "{{packageName}}:{{depName}}",

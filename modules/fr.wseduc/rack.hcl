@@ -1,11 +1,9 @@
-variable "MODULE_VERSION" { default = "3.1.8" }
-
 target "rack" {
     inherits = ["base"]
-    tags = ["${REGISTRY}/rack:${MODULE_VERSION}"]
+    tags = ["${REGISTRY}/rack:${target.rack.args.MODULE_VERSION}"]
     args = {
         MODULE_GROUP = "fr.wseduc"
         MODULE_NAME = "rack"
-        MODULE_VERSION = MODULE_VERSION
+        MODULE_VERSION = "3.1.8"
     }
 }
