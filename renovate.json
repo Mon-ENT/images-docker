@@ -1,0 +1,38 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": ["config:recommended"],
+    "customManagers": [
+        {
+            "customType": "regex",
+            "fileMatch": ["^docker-bake\\.hcl$"],
+            "matchStrings": [
+                "variable \"ENTCORE_VERSION\" { default = \"(?<currentValue>[^\"]+)\" }\\r?"
+            ],
+            "datasourceTemplate": "maven",
+            "packageNameTemplate": "org.entcore:ent-core",
+            "registryUrlTemplate": "https://maven.opendigitaleducation.com/repository/public"
+        },
+        {
+            "customType": "regex",
+            "fileMatch": ["^docker-bake\\.hcl$"],
+            "matchStrings": [
+                "variable \"LAUNCHER_VERSION\" { default = \"(?<currentValue>[^\"]+)\" }\\r?"
+            ],
+            "datasourceTemplate": "docker",
+            "packageNameTemplate": "opendigitaleducation/vertx-service-launcher"
+        },
+        {
+            "customType": "regex",
+            "fileMatch": ["^modules/[^/]+/[^/]+\\.hcl$"],
+            "matchStringsStrategy": "combination",
+            "matchStrings": [
+                "variable \"MODULE_VERSION\" { default = \"(?<currentValue>[^\"]+)\" }\\r?",
+                "MODULE_GROUP = \"(?<packageName>[^\"]+)\"",
+                "MODULE_NAME = \"(?<depName>[^\"]+)\""
+            ],
+            "datasourceTemplate": "maven",
+            "packageNameTemplate": "{{packageName}}:{{depName}}",
+            "registryUrlTemplate": "https://maven.opendigitaleducation.com/repository/public"
+        }
+    ]
+}
