@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - Dockerfile.base
+      - Dockerfile
       - modules.json
   workflow_dispatch:
 
@@ -33,7 +33,6 @@ jobs:
     with:
       output: image
       push: true
-      file: Dockerfile.base
       platforms: linux/amd64,linux/arm64
       build-args: |
         MODULE_GROUP=${{ matrix.module.group }}
