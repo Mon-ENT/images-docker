@@ -11,6 +11,7 @@
   { "group": "fr.openent", "name": "presences", "version": "2.1.9" },
   { "group": "fr.openent", "name": "search-engine", "version": "2.1.4" },
   { "group": "fr.openent", "name": "share-big-files", "version": "2.2.5" },
+
   { "group": "fr.wseduc", "name": "fake-sso", "version": "2.1.4" },
   { "group": "fr.wseduc", "name": "mod-image-resizer", "version": "3.2.3" },
   { "group": "fr.wseduc", "name": "mod-pdf-generator", "version": "2.1.1" },
@@ -18,6 +19,7 @@
   { "group": "fr.wseduc", "name": "mod-zip", "version": "3.2.1" },
   { "group": "fr.wseduc", "name": "pages", "version": "2.1.5" },
   { "group": "fr.wseduc", "name": "rack", "version": "3.1.8" },
+  { "group": "fr.wseduc", "name": "scrap-book", "version": "4.4.7" },
   { "group": "fr.wseduc", "name": "stats", "version": "2.5.5" },
 
   { "group": "io.vertx", "name": "mod-mongo-persistor", "version": "4.1.1" },
