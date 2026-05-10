@@ -1,6 +1,3 @@
-# renovate: datasource=docker packageName=opendigitaleducation/vertx-service-launcher
-ARG LAUNCHER_VERSION=3.0.3
-
 # +========================+
 # |      BUILD  STAGE      |
 # +========================+
@@ -20,7 +17,7 @@ RUN GROUP_PATH=$(echo ${MODULE_GROUP} | tr "." "/") && \
 # +========================+
 # |      LAUNCH STAGE      |
 # +========================+
-FROM opendigitaleducation/vertx-service-launcher:${LAUNCHER_VERSION}
+FROM opendigitaleducation/vertx-service-launcher:3.0.3
 
 LABEL org.opencontainers.image.source=https://github.com/Mon-ENT/images-docker
 LABEL org.opencontainers.image.licenses=GPL-3.0-or-later
