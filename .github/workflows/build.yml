@@ -21,40 +21,31 @@ jobs:
 
   build:
     needs: discover
-    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
         module: ${{ fromJson(needs.discover.outputs.modules) }}
+    uses: docker/github-builder/.github/workflows/build.yml@v1
     permissions:
       contents: read
-      packages: write
-    steps:
-      - name: Setup QEMU
-        uses: docker/setup-qemu-action@v4
-
-      - name: Setup Docker Buildx
-        uses: docker/setup-buildx-action@v4
-
-      - name: Log in to GitHub Container Registry
-        uses: docker/login-action@v4
-        with:
-          registry: ghcr.io
+      id-token: write
+    with:
+      output: image
+      push: true
+      file: Dockerfile.base
+      platforms: linux/amd64,linux/arm64
+      build-args: |
+        MODULE_GROUP=${{ matrix.module.group }}
+        MODULE_NAME=${{ matrix.module.name }}
+        MODULE_VERSION=${{ matrix.module.version }}
+      cache: true
+      cache-scope: ${{ matrix.module.name }}
+      meta-images: ghcr.io/mon-ent/${{ matrix.module.name }}
+      meta-tags: |
+        type=raw,value=latest
+        type=raw,value=${{ matrix.module.version }}
+    secrets:
+      registry-auths: |
+        - registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Build and push
-        uses: docker/build-push-action@v7
-        with:
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
-          file: Dockerfile.base
-          platforms: linux/amd64,linux/arm64
-          push: true
-          build-args: |
-            MODULE_GROUP=${{ matrix.module.group }}
-            MODULE_NAME=${{ matrix.module.name }}
-            MODULE_VERSION=${{ matrix.module.version }}
-          tags: |
-            ghcr.io/mon-ent/${{ matrix.module.name }}:latest
-            ghcr.io/mon-ent/${{ matrix.module.name }}:${{ matrix.module.version }}
