@@ -1,4 +1,5 @@
-ARG LAUNCHER_VERSION=latest
+# renovate: datasource=docker packageName=opendigitaleducation/vertx-service-launcher
+ARG LAUNCHER_VERSION=3.0.3
 
 # +========================+
 # |      BUILD  STAGE      |
