@@ -47,7 +47,7 @@
 
   { "group": "org.entcore", "name": "admin", "version": "6.14.15" },
   { "group": "org.entcore", "name": "app-registry", "version": "6.14.15" },
-  { "group": "org.entcore", "name": "archive", "version": "6.14.15" },
+  { "group": "org.entcore", "name": "archive", "version": "6.15.5" },
   { "group": "org.entcore", "name": "audience", "version": "6.14.15" },
   { "group": "org.entcore", "name": "auth", "version": "6.14.15" },
   { "group": "org.entcore", "name": "blog", "version": "5.4.10" },
