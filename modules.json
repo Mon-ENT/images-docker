@@ -56,7 +56,7 @@
   { "group": "org.entcore", "name": "conversation", "version": "6.15.5" },
   { "group": "org.entcore", "name": "directory", "version": "6.15.5" },
   { "group": "org.entcore", "name": "feeder", "version": "6.15.5" },
-  { "group": "org.entcore", "name": "infra", "version": "6.14.15" },
+  { "group": "org.entcore", "name": "infra", "version": "6.15.5" },
   { "group": "org.entcore", "name": "portal", "version": "6.14.15" },
   { "group": "org.entcore", "name": "timeline", "version": "6.14.15" },
   { "group": "org.entcore", "name": "workspace", "version": "6.14.15" }
