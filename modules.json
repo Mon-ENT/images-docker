@@ -1,7 +1,7 @@
 [
   { "group": "com.opendigitaleducation", "name": "explorer", "version": "2.6.1" },
   { "group": "com.opendigitaleducation", "name": "mod-json-schema-validator", "version": "2.2.0" },
-  { "group": "com.opendigitaleducation", "name": "website", "version": "3.1.4" },
+  { "group": "com.opendigitaleducation", "name": "website", "version": "3.2.1" },
 
   { "group": "fr.cgi", "name": "magneto", "version": "2.10.0" },
 
@@ -11,11 +11,11 @@
   { "group": "fr.openent", "name": "jupyter-connector", "version": "2.2.0" },
   { "group": "fr.openent", "name": "massmailing", "version": "2.2.2" },
   { "group": "fr.openent", "name": "moodle-connector", "version": "2.3.0" },
-  { "group": "fr.openent", "name": "presences", "version": "2.1.9" },
+  { "group": "fr.openent", "name": "presences", "version": "2.2.2" },
   { "group": "fr.openent", "name": "scratch-connector", "version": "1.2.0" },
-  { "group": "fr.openent", "name": "search-engine", "version": "2.1.4" },
+  { "group": "fr.openent", "name": "search-engine", "version": "2.2.0" },
   { "group": "fr.openent", "name": "share-big-files", "version": "2.3.0" },
-  { "group": "fr.openent", "name": "web-conference", "version": "2.1.5" },
+  { "group": "fr.openent", "name": "web-conference", "version": "2.2.0" },
 
   { "group": "fr.wseduc", "name": "fake-sso", "version": "2.2.0" },
   { "group": "fr.wseduc", "name": "homeworks", "version": "3.2.1" },
@@ -25,7 +25,7 @@
   { "group": "fr.wseduc", "name": "mod-zip", "version": "3.3.0" },
   { "group": "fr.wseduc", "name": "pages", "version": "2.2.0" },
   { "group": "fr.wseduc", "name": "rack", "version": "3.2.1" },
-  { "group": "fr.wseduc", "name": "scrap-book", "version": "4.4.7" },
+  { "group": "fr.wseduc", "name": "scrap-book", "version": "4.5.1" },
   { "group": "fr.wseduc", "name": "stats", "version": "2.6.0" },
 
   { "group": "io.vertx", "name": "mod-mongo-persistor", "version": "4.2.0" },
@@ -40,9 +40,9 @@
   { "group": "net.atos", "name": "mindmap", "version": "3.5.1" },
   { "group": "net.atos", "name": "poll", "version": "2.2.0" },
   { "group": "net.atos", "name": "rbs", "version": "2.2.0" },
-  { "group": "net.atos", "name": "rss", "version": "2.1.4" },
+  { "group": "net.atos", "name": "rss", "version": "2.2.0" },
   { "group": "net.atos", "name": "support", "version": "4.1.1" },
-  { "group": "net.atos", "name": "timelinegenerator", "version": "3.3.7" },
+  { "group": "net.atos", "name": "timelinegenerator", "version": "3.4.1" },
   { "group": "net.atos", "name": "wiki", "version": "3.6.1" },
 
   { "group": "org.entcore", "name": "admin", "version": "6.15.5" },
