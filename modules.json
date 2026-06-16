@@ -43,7 +43,7 @@
   { "group": "net.atos", "name": "rss", "version": "2.1.4" },
   { "group": "net.atos", "name": "support", "version": "4.1.1" },
   { "group": "net.atos", "name": "timelinegenerator", "version": "3.3.7" },
-  { "group": "net.atos", "name": "wiki", "version": "3.5.12" },
+  { "group": "net.atos", "name": "wiki", "version": "3.6.1" },
 
   { "group": "org.entcore", "name": "admin", "version": "6.15.5" },
   { "group": "org.entcore", "name": "app-registry", "version": "6.15.5" },
