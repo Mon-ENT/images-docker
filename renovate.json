@@ -5,11 +5,8 @@
         {
             "customType": "regex",
             "fileMatch": ["modules.json"],
-            "matchStringsStrategy": "combination",
             "matchStrings": [
-                "\"group\": \"(?<packageName>[^\"]+)\"",
-                "\"name\": \"(?<depName>[^\"]+)\"",
-                "\"version\": \"(?<currentValue>[^\"]+)\""
+                "\\{[^}]*\"group\":\\s*\"(?<packageName>[^\"]+)\"[^}]*\"name\":\\s*\"(?<depName>[^\"]+)\"[^}]*\"version\":\\s*\"(?<currentValue>[^\"]+)\"[^}]*\\}"
             ],
             "datasourceTemplate": "maven",
             "packageNameTemplate": "{{packageName}}:{{depName}}",
