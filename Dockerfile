@@ -1,7 +1,7 @@
 # +========================+
 # |      BUILD  STAGE      |
 # +========================+
-FROM alpine:3.23.4 AS builder
+FROM alpine:3.24.1 AS builder
 WORKDIR /app
 
 ARG MODULE_GROUP
