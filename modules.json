@@ -37,7 +37,7 @@
   { "group": "net.atos", "name": "collaborativewall", "version": "3.5.1" },
   { "group": "net.atos", "name": "community", "version": "2.2.1" },
   { "group": "net.atos", "name": "forum", "version": "2.2.0" },
-  { "group": "net.atos", "name": "mindmap", "version": "3.4.9" },
+  { "group": "net.atos", "name": "mindmap", "version": "3.5.1" },
   { "group": "net.atos", "name": "poll", "version": "2.1.5" },
   { "group": "net.atos", "name": "rbs", "version": "2.1.7" },
   { "group": "net.atos", "name": "rss", "version": "2.1.4" },
