@@ -9,6 +9,10 @@ on:
   push: *pr_push
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   discover:
     runs-on: ubuntu-latest
