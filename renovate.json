@@ -17,8 +17,7 @@
         {
             "matchFileNames": ["modules.json"],
             "automerge": true,
-            "automergeType": "branch",
-            "ignoreTests": true
+            "automergeType": "pr"
         }
     ]
 }
