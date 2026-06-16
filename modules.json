@@ -1,6 +1,6 @@
 [
   { "group": "com.opendigitaleducation", "name": "explorer", "version": "2.6.1" },
-  { "group": "com.opendigitaleducation", "name": "mod-json-schema-validator", "version": "2.1.1" },
+  { "group": "com.opendigitaleducation", "name": "mod-json-schema-validator", "version": "2.2.0" },
   { "group": "com.opendigitaleducation", "name": "website", "version": "3.1.4" },
 
   { "group": "fr.cgi", "name": "magneto", "version": "2.10.0" },
