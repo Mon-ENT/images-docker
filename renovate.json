@@ -18,6 +18,27 @@
             "matchFileNames": ["modules.json"],
             "automerge": true,
             "automergeType": "pr"
+        },
+        {
+            "matchPackageNames": [
+                "org.entcore:admin",
+                "org.entcore:app-registry",
+                "org.entcore:archive",
+                "org.entcore:audience",
+                "org.entcore:auth",
+                "org.entcore:cas",
+                "org.entcore:communication",
+                "org.entcore:conversation",
+                "org.entcore:directory",
+                "org.entcore:feeder",
+                "org.entcore:infra",
+                "org.entcore:portal",
+                "org.entcore:timeline",
+                "org.entcore:workspace"
+            ],
+            "groupName": "ent-core",
+            "automerge": true,
+            "automergeType": "pr"
         }
     ]
 }
