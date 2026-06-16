@@ -30,7 +30,7 @@
 
   { "group": "io.vertx", "name": "mod-mongo-persistor", "version": "4.1.1" },
 
-  { "group": "net.atos", "name": "actualites", "version": "3.1.5" },
+  { "group": "net.atos", "name": "actualites", "version": "3.2.1" },
   { "group": "net.atos", "name": "bookmark", "version": "2.1.3" },
   { "group": "net.atos", "name": "calendar", "version": "4.2.10" },
   { "group": "net.atos", "name": "collaborative-editor", "version": "3.3.6" },
