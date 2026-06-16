@@ -17,7 +17,7 @@
   { "group": "fr.openent", "name": "share-big-files", "version": "2.2.5" },
   { "group": "fr.openent", "name": "web-conference", "version": "2.1.5" },
 
-  { "group": "fr.wseduc", "name": "fake-sso", "version": "2.1.4" },
+  { "group": "fr.wseduc", "name": "fake-sso", "version": "2.2.0" },
   { "group": "fr.wseduc", "name": "homeworks", "version": "3.1.4" },
   { "group": "fr.wseduc", "name": "mod-image-resizer", "version": "3.2.3" },
   { "group": "fr.wseduc", "name": "mod-pdf-generator", "version": "2.1.1" },
