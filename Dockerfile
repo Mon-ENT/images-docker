@@ -12,6 +12,7 @@ RUN GROUP_PATH=$(echo ${MODULE_GROUP} | tr "." "/") && \
     wget -q -O "${MODULE_GROUP}~${MODULE_NAME}~${MODULE_VERSION}-fat.jar" "https://maven.opendigitaleducation.com/repository/public/${GROUP_PATH}/${MODULE_NAME}/${MODULE_VERSION}/${MODULE_NAME}-${MODULE_VERSION}-fat.jar" && \
     mkdir -p /app/${MODULE_GROUP}~${MODULE_NAME}~${MODULE_VERSION} && \
     unzip -q "${MODULE_GROUP}~${MODULE_NAME}~${MODULE_VERSION}-fat.jar" -d /app/${MODULE_GROUP}~${MODULE_NAME}~${MODULE_VERSION} && \
+    rm -rf "${MODULE_GROUP}~${MODULE_NAME}~${MODULE_VERSION}/public" && \
     rm "${MODULE_GROUP}~${MODULE_NAME}~${MODULE_VERSION}-fat.jar"
 
 # +========================+
