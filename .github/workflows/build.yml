@@ -36,13 +36,18 @@ jobs:
             echo "modules=$(jq -c . modules.json)" >> $GITHUB_OUTPUT
             exit 0
           fi
-        
+
           CHANGED=$(jq -cn \
             --argjson before "$BEFORE" \
             --argjson after "$AFTER" \
             '[$after[] | . as $m | select($before[] | .group == $m.group and .name == $m.name and .version != $m.version | not | not)]'
           )
-          echo "modules=$CHANGED" >> $GITHUB_OUTPUT
+
+          if [ "$(echo "$CHANGED" | jq 'length')" -eq 0 ]; then
+            echo "modules=$(jq -c . modules.json)" >> $GITHUB_OUTPUT
+          else
+            echo "modules=$CHANGED" >> $GITHUB_OUTPUT
+          fi
 
   build:
     needs: discover
