@@ -5,7 +5,7 @@
 
   { "group": "fr.cgi", "name": "magneto", "version": "2.10.0" },
 
-  { "group": "fr.openent", "name": "competences", "version": "2.2.0" },
+  { "group": "fr.openent", "name": "competences", "version": "2.2.1" },
   { "group": "fr.openent", "name": "exercizer", "version": "4.4.1" },
   { "group": "fr.openent", "name": "geogebra", "version": "1.2.0" },
   { "group": "fr.openent", "name": "jupyter-connector", "version": "2.2.0" },
