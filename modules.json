@@ -14,7 +14,7 @@
   { "group": "fr.openent", "name": "presences", "version": "2.2.3" },
   { "group": "fr.openent", "name": "scratch-connector", "version": "1.2.1" },
   { "group": "fr.openent", "name": "search-engine", "version": "2.2.1" },
-  { "group": "fr.openent", "name": "share-big-files", "version": "2.3.0" },
+  { "group": "fr.openent", "name": "share-big-files", "version": "2.3.2" },
   { "group": "fr.openent", "name": "web-conference", "version": "2.2.0" },
 
   { "group": "fr.wseduc", "name": "fake-sso", "version": "2.2.1" },
