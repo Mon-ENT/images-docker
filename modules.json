@@ -1,5 +1,5 @@
 [
-  { "group": "com.opendigitaleducation", "name": "explorer", "version": "2.6.2" },
+  { "group": "com.opendigitaleducation", "name": "explorer", "version": "2.6.3" },
   { "group": "com.opendigitaleducation", "name": "mod-json-schema-validator", "version": "2.2.0" },
   { "group": "com.opendigitaleducation", "name": "website", "version": "3.2.2" },
 
