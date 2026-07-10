@@ -7,7 +7,7 @@
 
   { "group": "fr.openent", "name": "competences", "version": "2.2.1" },
   { "group": "fr.openent", "name": "exercizer", "version": "4.4.3" },
-  { "group": "fr.openent", "name": "geogebra", "version": "1.2.1" },
+  { "group": "fr.openent", "name": "geogebra", "version": "1.2.2" },
   { "group": "fr.openent", "name": "jupyter-connector", "version": "2.2.1" },
   { "group": "fr.openent", "name": "massmailing", "version": "2.2.3" },
   { "group": "fr.openent", "name": "moodle-connector", "version": "2.3.1" },
