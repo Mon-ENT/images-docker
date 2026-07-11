@@ -3,7 +3,7 @@
   { "group": "com.opendigitaleducation", "name": "mod-json-schema-validator", "version": "2.2.0" },
   { "group": "com.opendigitaleducation", "name": "website", "version": "3.2.2" },
 
-  { "group": "fr.cgi", "name": "magneto", "version": "2.10.2" },
+  { "group": "fr.cgi", "name": "magneto", "version": "2.10.3" },
 
   { "group": "fr.openent", "name": "competences", "version": "2.2.1" },
   { "group": "fr.openent", "name": "exercizer", "version": "4.4.3" },
