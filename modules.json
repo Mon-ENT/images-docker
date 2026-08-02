@@ -19,7 +19,7 @@
 
   { "group": "fr.wseduc", "name": "fake-sso", "version": "2.2.3" },
   { "group": "fr.wseduc", "name": "homeworks", "version": "4.0.3" },
-  { "group": "fr.wseduc", "name": "mod-image-resizer", "version": "3.3.0" },
+  { "group": "fr.wseduc", "name": "mod-image-resizer", "version": "3.3.1" },
   { "group": "fr.wseduc", "name": "mod-pdf-generator", "version": "2.2.0" },
   { "group": "fr.wseduc", "name": "mod-postgresql", "version": "2.2.0" },
   { "group": "fr.wseduc", "name": "mod-zip", "version": "3.3.0" },
