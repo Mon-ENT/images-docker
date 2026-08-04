@@ -33,7 +33,7 @@
   { "group": "net.atos", "name": "actualites", "version": "3.2.6" },
   { "group": "net.atos", "name": "bookmark", "version": "2.2.2" },
   { "group": "net.atos", "name": "calendar", "version": "4.3.5" },
-  { "group": "net.atos", "name": "collaborative-editor", "version": "3.4.4" },
+  { "group": "net.atos", "name": "collaborative-editor", "version": "3.4.5" },
   { "group": "net.atos", "name": "collaborativewall", "version": "3.5.5" },
   { "group": "net.atos", "name": "community", "version": "2.2.3" },
   { "group": "net.atos", "name": "forum", "version": "2.2.3" },
