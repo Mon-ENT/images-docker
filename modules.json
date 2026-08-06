@@ -24,7 +24,7 @@
   { "group": "fr.wseduc", "name": "mod-postgresql", "version": "2.2.1" },
   { "group": "fr.wseduc", "name": "mod-zip", "version": "3.3.1" },
   { "group": "fr.wseduc", "name": "pages", "version": "2.2.4" },
-  { "group": "fr.wseduc", "name": "rack", "version": "3.2.4" },
+  { "group": "fr.wseduc", "name": "rack", "version": "3.2.7" },
   { "group": "fr.wseduc", "name": "scrap-book", "version": "4.5.3" },
   { "group": "fr.wseduc", "name": "stats", "version": "2.6.2" },
 
