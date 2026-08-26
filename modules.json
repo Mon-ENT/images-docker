@@ -50,7 +50,7 @@
   { "group": "org.entcore", "name": "archive", "version": "6.16.0" },
   { "group": "org.entcore", "name": "audience", "version": "6.16.0" },
   { "group": "org.entcore", "name": "auth", "version": "6.16.0" },
-  { "group": "org.entcore", "name": "blog", "version": "5.5.6" },
+  { "group": "org.entcore", "name": "blog", "version": "5.5.7" },
   { "group": "org.entcore", "name": "cas", "version": "6.16.0" },
   { "group": "org.entcore", "name": "communication", "version": "6.16.0" },
   { "group": "org.entcore", "name": "conversation", "version": "6.16.0" },
