@@ -11,7 +11,7 @@
   { "group": "fr.openent", "name": "jupyter-connector", "version": "2.2.3" },
   { "group": "fr.openent", "name": "massmailing", "version": "2.2.7" },
   { "group": "fr.openent", "name": "moodle-connector", "version": "2.3.3" },
-  { "group": "fr.openent", "name": "presences", "version": "2.2.6" },
+  { "group": "fr.openent", "name": "presences", "version": "2.2.7" },
   { "group": "fr.openent", "name": "scratch-connector", "version": "1.2.2" },
   { "group": "fr.openent", "name": "search-engine", "version": "2.2.4" },
   { "group": "fr.openent", "name": "share-big-files", "version": "2.3.5" },
