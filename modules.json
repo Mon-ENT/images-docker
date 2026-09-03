@@ -25,7 +25,7 @@
   { "group": "fr.wseduc", "name": "mod-zip", "version": "3.3.1" },
   { "group": "fr.wseduc", "name": "pages", "version": "2.2.4" },
   { "group": "fr.wseduc", "name": "rack", "version": "3.2.9" },
-  { "group": "fr.wseduc", "name": "scrap-book", "version": "4.5.5" },
+  { "group": "fr.wseduc", "name": "scrap-book", "version": "4.5.6" },
   { "group": "fr.wseduc", "name": "stats", "version": "2.6.3" },
 
   { "group": "io.vertx", "name": "mod-mongo-persistor", "version": "4.2.0" },
