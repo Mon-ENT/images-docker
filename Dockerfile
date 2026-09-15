@@ -18,7 +18,7 @@ RUN GROUP_PATH=$(echo ${MODULE_GROUP} | tr "." "/") && \
 # +========================+
 # |      LAUNCH STAGE      |
 # +========================+
-FROM opendigitaleducation/vertx-service-launcher:3.1.0
+FROM opendigitaleducation/vertx-service-launcher:3.3.0
 
 LABEL org.opencontainers.image.source=https://github.com/Mon-ENT/images-docker
 LABEL org.opencontainers.image.licenses=GPL-3.0-or-later
